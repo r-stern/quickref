@@ -1,0 +1,11 @@
+abstract class: cannot be instantiated but can be subclassed. can implement interfaces without providing the implementation of the interface methods. can be run if it has a main method.
+
+inheritance: cannot happen with private or static methods
+
+overload: compile time, same classes/methods/constructors with the same names but different parameters
+
+override: runtime, sublcass or method with same name and number of parameters
+
+multiple inheritance: classes can inherit properties of more than one parent class, not supported by java because it leads to the diamond problem
+
+polymorphism:in java when an object can take on many forms, when a parent class reference is used to refer to a child class object.
