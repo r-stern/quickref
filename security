@@ -3,8 +3,8 @@ CIA triad:
   
 Perfectly Secrecy: the notion that nothing about a plaintext can be learned from the ciphertext, including length, etc.
 
-Public Key Encryption:
+Public/Asymmetric Key Encryption:
 
 Shift Ciphers: not perfectly secure because one can do frequency analysis on the ciphertext and deduce things about the plaintext, form example: the length, and that since the most common letter of the english language is E, the most common appearing letter in the ciphertext will likely correspond to e, and with that clue an attacker and deduce more about the plaintext
 
-Symmetric key encryption:
+Private/Symmetric key encryption:
