@@ -1,7 +1,23 @@
+Chosen ciphertext attack: attacker has pairs of ciphertexts and plaintexts, however, these pairs are for ciphertexts chosen by the attacker
+
+Chosen plaintext attack: attacker has pairs of ciphertexts and plaintexts, however, these pairs are for plaintexts chosen by the attacker
+
 CIA triad:
   confidentiality, integrity, availability
   
+Ciphertext only attack: attacker has a collection of ciphertexts
+
+Computational Security: scheme is secure even if a tiny amount of information is leaked about the plaintext to adversaries with bounded computational power. Ensures that security is guaranteed against efficient adversaries
+
+Known plaintext attack: attacker has a collectino of ciphertext and plaintext pairs
+  
+One time pad: a perfectly secure algorithm for encryption if done correctly. Bitwise xor of key and ciphertext, however, keys need to be as long as plaintext and can NEVER be reused.
+  
 Perfectly Secrecy: the notion that nothing about a plaintext can be learned from the ciphertext, including length, etc.
+
+Pseudorandomness: need a nefficient porces to expand a short random string into a long string that appears random, not truly random because it is derived deterministically, and the output is dependent on initial values
+
+Pseudorandom generators: G is one if EXPANSION: for a polynomial l, it holds that for all n, l(n)>n, and models extracting randomness from short random string; PSEUDORANDOMNESS: no efficient statistical test can tell output apart from a truly random string
 
 Public/Asymmetric Key Encryption:
 
