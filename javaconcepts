@@ -1,11 +1,37 @@
 abstract class: cannot be instantiated but can be subclassed. can implement interfaces without providing the implementation of the interface methods. can be run if it has a main method.
 
+class: user-defined blueprint from which objects are created
+  Modifieers: access
+  name: capital letter
+  interface: class can implement more than one interface
+  body: {}
+  
+constructor: used for making new objects  *at least one in every class. otherwise, the java compiler automatically provides a no-argument constructor, called the default constructor, which calls the class parent's no-argument constructor, or the "Object" class constructor if the class has no other parent.
+
 inheritance: cannot happen with private or static methods
+
+instantiation: when an object of a class is created, it is said to be instantiated; all instances share the behavior and attributes of the class, but the values differ.
 
 overload: compile time, same classes/methods/constructors with the same names but different parameters
 
 override: runtime, sublcass or method with same name and number of parameters
 
+methods: used for assigning behavior to class and its objects
+
 multiple inheritance: classes can inherit properties of more than one parent class, not supported by java because it leads to the diamond problem
 
 polymorphism:in java when an object can take on many forms, when a parent class reference is used to refer to a child class object.
+
+public static void main(String args[]): 
+  public: access modifier, set to public making it globally available so JVM can invoke it from outside the class
+  static: can be invoked without instantiation of a class; saves memoery
+  void: specifies it doesn't return anything; when this method terminates, so does the program
+  main: starting point of the program, not a keyword
+  String args[]: stores java command line arguments
+  
+  object: unit
+    state: attributes of the object
+    behavior: methods
+    identity: name
+    
+ object class: parent of all classes directly or indirectly.
