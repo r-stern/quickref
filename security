@@ -1,3 +1,5 @@
+Azure active directory: a microsoft product that is used to manage permissions and access to networked resources. stores data as objects, which is a single element such as a user, group, application, or device.
+
 Chosen ciphertext attack: attacker has pairs of ciphertexts and plaintexts, however, these pairs are for ciphertexts chosen by the attacker
 
 Chosen plaintext attack: attacker has pairs of ciphertexts and plaintexts, however, these pairs are for plaintexts chosen by the attacker
@@ -9,9 +11,11 @@ Ciphertext only attack: attacker has a collection of ciphertexts
 
 Computational Security: scheme is secure even if a tiny amount of information is leaked about the plaintext to adversaries with bounded computational power. Ensures that security is guaranteed against efficient adversaries
 
+Connection Oriented service: uses a protocol when connecting and will not send or receive data until that connection is started.
+
 Foreshadow/L1TF attack: an attack on operating systems assuming secret in L1 cache. it is executed by utilizing out of order execution. see "sgx"
 
-Known plaintext attack: attacker has a collectino of ciphertext and plaintext pairs
+Known plaintext attack: attacker has a collection of ciphertext and plaintext pairs
   
 One time pad: a perfectly secure algorithm for encryption if done correctly. Bitwise xor of key and ciphertext, however, keys need to be as long as plaintext and can NEVER be reused.
   
@@ -21,10 +25,12 @@ Pseudorandomness: need a nefficient porces to expand a short random string into 
 
 Pseudorandom generators: G is one if EXPANSION: for a polynomial l, it holds that for all n, l(n)>n, and models extracting randomness from short random string; PSEUDORANDOMNESS: no efficient statistical test can tell output apart from a truly random string
 
-Public/Asymmetric Key Encryption:
+Public/Asymmetric Key Encryption: uses public shared keys to encrypt something and private unknown keys to decrypt something
 
 SGX/Software guard extension: security related instruction codes built into modern Intel CPUs. Allow user-level and OS code to define private regions of memory (enclaves), whose contents cannt be read or written or saved by processes outside the enclave, including processes with higher privilege levels. Disabled by default and must be opted into. Involves encryption on the fly by CPU for a portion of memory, everything outside of this enclave is treated as hostile. Despite this, it does NOT protect against Foreshadow attack (see Foreshadow/L1TF). 
 
 Shift Ciphers: not perfectly secure because one can do frequency analysis on the ciphertext and deduce things about the plaintext, form example: the length, and that since the most common letter of the english language is E, the most common appearing letter in the ciphertext will likely correspond to e, and with that clue an attacker and deduce more about the plaintext
 
-Private/Symmetric key encryption:
+Private/Symmetric key encryption: uses same private keys to encrypt and decrypt
+
+TCP/IP layers: App ; transport ; network ; data link ; physical
