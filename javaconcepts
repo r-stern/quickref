@@ -35,3 +35,5 @@ public static void main(String args[]):
     identity: name
     
  object class: parent of all classes directly or indirectly.
+ 
+ static: member of a class that isn't associated with the instance of a class. instead, the member belongs to the class itself.
