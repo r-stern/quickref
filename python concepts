@@ -1,0 +1,8 @@
+constructor method: used to make objects in python classes. in python it is __init__
+
+dictionary: data structure with key-value pairs
+  example: dictionary_name["key"]
+  
+getter: in a class, gets the value of an attribute. define with @property
+
+setter: in a class, sets the value of an attribute. define with @property
