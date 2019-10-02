@@ -1,7 +1,7 @@
 abstract class: cannot be instantiated but can be subclassed. can implement interfaces without providing the implementation of the interface methods. can be run if it has a main method.
 
 class: user-defined blueprint from which objects are created
-  Modifieers: access
+  Modifiers: access
   name: capital letter
   interface: class can implement more than one interface
   body: {}
